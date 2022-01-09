@@ -1,0 +1,21 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #386664;
+  color: white;
+}
+header img {
+  padding: 20px;
+  height: 250px;
+}
+footer {
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: center;
+  align-items: center;
+  background-color: #386664;
+  color: white;
+  padding: 20px;
+}
