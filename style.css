@@ -17,6 +17,9 @@ header img {
 header h1 {
   padding: 20px;
 }
+body {
+  font-size: 1em;
+}
 footer {
   display: flex;
   flex-wrap: wrap;
@@ -30,7 +33,7 @@ footer {
   height: 60px;
 }
 body h2 {
-  border-bottom: 2px solid gray;
+  border-bottom: 2px solid #d1d1d1;
 }
 body ul {
   line-height: 1.5;
