@@ -35,6 +35,9 @@ footer {
   color: white;
   padding: 1rem;
 }
+footer p {
+  padding: 10px;
+}
 h2 {
   border-bottom: 2px solid #d1d1d1;
   font-family: "Raleway", sans-serif;

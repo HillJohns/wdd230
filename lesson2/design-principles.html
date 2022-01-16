@@ -10,19 +10,21 @@
     />
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,900;1,600&display=swap");
-    </style>
+      @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+   </style>
     <title>Hillary Johnson WDD230 - Lesson 2</title>
   </head>
   <body>
     <header>
       <h1>Design Principles Document <br> Hillary Johnson</h1>
     </header>
-    <section id="whitespace">
-      <h2>White Space and Clean Design</h2>
-      <p>Apple</p>
+    <main class="grid-container">
+    <section id="whitespace" class="grid-item">
+      <div class="sectionheader"> <h2>White Space</h2> </div>
+      <h3>Apple</h3>
       <a href="https://www.apple.com/watch/">Apple Website</a>
       <img
-      src="./images/screenshot1.jpg"
+      src="./images/applewatch.jpg"
       alt="Screenshot of apple.com"
     /> 
     <p>I have always appreciated Apple's use of whitespace on their website. It draws the
@@ -33,31 +35,49 @@
       The rest of the website is easy to navigate and reflects their product design. 
     </p>
     </section>
-    <section id="heirarchy">
-      <h2>Visual Heirarchy</h2>
-      <p>Quip</p>
+    <section id="heirarchy" class="grid-item">
+      <div class="sectionheader"> <h2>Visual Heirarchy</h2> </div>
+      <h3>Quip</h3>
       <a href="https://www.getquip.com/">Quip Website</a>
       <img
-      src="./images/screenshot1.jpg"
+      src="./images/quip.jpg"
       alt="Screenshot of quip website"
     />
+    <p>Quip's home website is a good example of visual heirarchy. The color of the heading 
+      immediately drew my eyes to the brand name, and then contrast takes attention to their tagline.
+      If someone didn't know what quip is, they would realize within the first few seconds of the page 
+      loading that the brand name Quip sells toothbrushes that are geared toward making oral
+      health simple. The different images that carousel through have different aspects of 
+      visual heirarchy using differing levels of contrast and proximity.
+    </p>
     </section>
-    <section id="Website3">
-      <h2>Principle One</h2>
-      <p>Website Name</p>
-      <a href="http://www.website.com">Website.com</a>
+    <section id="proximity" class="grid-item">
+      <div class="sectionheader"><h2>Proximity</h2></div>
+      <h3>Toscano Resort Castelfalfi</h3>
+      <a href="https://www.castelfalfi.com/">Caselfalfi</a>
       <img
-      src="./images/screenshot1.jpg"
-      alt="Screenshot of Website Name"
+      src="./images/toscano.jpg"
+      alt="Toscano Resort screenshot"
     />
+    <p>
+      Scrolling down through this website, there are a few different examples of grouping. The
+      most obvious one however is through a regular sized PC browswer window. Each icon shown in 
+      this screenshot is grouped together with a number and quick fact. The user is easily able to
+      visual what the number portrays and move through the pattern to gain the information quickly.
+      This one is also an excellent example of clean design, whitespace, and repetition. 
+    </p>
     </section>
+  </main>
     <footer>
       <p>
         &copy; 2022 | Hillary Johnson | Utah | Last Updated: 
-        <p id="lastmod"></p>
+        <div id="lastmod"></div>
       </p>
     </footer>
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/small.css" />
+    <link rel="stylesheet" href="./css/medium.css" />
+    <link rel="stylesheet" href="./css/large.css" />
     <script src="../js/script.js"></script>
   </body>
 </html>
