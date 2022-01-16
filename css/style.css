@@ -1,42 +1,42 @@
 header {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   background-color: #386664;
   color: white;
-  height: 240px;
   border-top: 5px groove;
   border-bottom: 5px ridge;
+  padding: 1rem;
 }
-header img {
+img {
   height: 200px;
-  border-radius: 5px;
-  border-color: #386664;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-header h1 {
+h1 {
   padding: 20px;
 }
 body {
   font-size: 16px;
+  max-width: 1200px;
+  margin: 0 auto;
   font-family: "Raleway", sans-serif;
+  line-height: 1.5;
 }
 footer {
   display: flex;
   flex-wrap: wrap;
-
   justify-content: center;
   align-items: center;
+  text-align: center;
   border-top: 4px groove;
   border-bottom: 6px ridge;
   background-color: #386664;
   color: white;
-  height: 60px;
+  padding: 1rem;
 }
 h2 {
   border-bottom: 2px solid #d1d1d1;
   font-family: "Raleway", sans-serif;
-}
-body ul {
-  line-height: 1.5;
+  margin: 20px;
 }

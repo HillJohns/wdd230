@@ -1,0 +1,17 @@
+@media only screen and (min-width: 32.5em) {
+  header {
+    font-size: 1.3em;
+    margin: 5px 20px 5px 20px;
+  }
+  body {
+    font-size: 1.2em;
+    line-height: 1.5em;
+  }
+  img {
+    border-radius: 5px;
+    border-color: #386664;
+  }
+  footer {
+    margin: 5px 20px 5px 20px;
+  }
+}
