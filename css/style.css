@@ -18,7 +18,8 @@ header h1 {
   padding: 20px;
 }
 body {
-  font-size: 1em;
+  font-size: 16px;
+  font-family: "Raleway", sans-serif;
 }
 footer {
   display: flex;
@@ -32,8 +33,9 @@ footer {
   color: white;
   height: 60px;
 }
-body h2 {
+h2 {
   border-bottom: 2px solid #d1d1d1;
+  font-family: "Raleway", sans-serif;
 }
 body ul {
   line-height: 1.5;
