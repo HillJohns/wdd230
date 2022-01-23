@@ -16,7 +16,7 @@ footer {
   margin: 0 auto;
 }
 #icon {
-  height: 100px;
+  height: 80px;
 }
 h1 {
   font-size: 1.1rem;
@@ -80,4 +80,10 @@ main ul {
 .color4 {
   background-color: #f1f7ed;
   padding: 50px 20px;
+}
+.mainlogo {
+  height: 150px;
+}
+footer {
+  margin-top: 20px;
 }
