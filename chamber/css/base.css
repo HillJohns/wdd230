@@ -1,0 +1,32 @@
+header {
+  width: 100%;
+  background-color: lightgray;
+}
+nav {
+  margin: 0 auto;
+  max-width: 760px;
+}
+.navigation {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+.navigation li:first-child {
+  display: block;
+}
+.navigation li {
+  display: none;
+}
+.navigation a {
+  display: block;
+  padding: 0.75rem;
+  text-align: center;
+  text-decoration: none;
+}
+.navigation a:hover {
+  background-color: white;
+  color: black;
+}
+.responsive li {
+  display: ;
+}
