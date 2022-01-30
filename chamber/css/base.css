@@ -1,32 +1,52 @@
 header {
   width: 100%;
   background-color: lightgray;
+  max-width: 1200px;
+}
+nav button {
+  margin: 0.2rem 2vw;
+  background: transparent;
+  border: none;
+  font-size: 2rem;
 }
 nav {
   margin: 0 auto;
   max-width: 760px;
 }
-.navigation {
-  list-style: none;
-  text-align: center;
+nav ul {
+  list-stye-type: none;
   padding: 0;
+  margin: 0;
 }
-.navigation li:first-child {
+nav ul li a {
   display: block;
+  padding: 0.8rem 2vw;
+  text-decoration: none;
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
 }
-.navigation li {
+nav ul li a:active {
+  background-color: #598381;
+  color: white;
+}
+nav ul li a:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+nav ul {
   display: none;
 }
-.navigation a {
+
+nav ul.open {
   display: block;
-  padding: 0.75rem;
-  text-align: center;
-  text-decoration: none;
 }
-.navigation a:hover {
-  background-color: white;
-  color: black;
+#hamburger span:nth-child(1) {
+  display: block;
 }
-.responsive li {
-  display: ;
+#hamburger span:nth-child(2) {
+  display: none;
+}
+#hamburger.open span:nth-child(1) {
+  display: none;
+}
+#hamburger.open span:nth-child(2) {
+  display: block;
 }
