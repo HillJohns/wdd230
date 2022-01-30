@@ -12,7 +12,7 @@
 
 .logo {
   width: 50px;
-  padding: 10px;
+  padding: 5px;
 }
 
 .social {
@@ -77,12 +77,18 @@ main {
 }
 
 /* Footer */
-footer {
+.footerMain {
   width: 100%;
   background-color: lightgray;
   max-width: 1200px;
   display: flex;
+  justify-content: center;
   align-items: center;
-  padding: 5px;
+  padding: 0 auto;
   margin: 0 auto;
+}
+.copyright {
+  display: flex;
+  justify-content: center;
+  padding: 1em;
 }
