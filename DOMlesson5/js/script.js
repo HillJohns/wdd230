@@ -12,7 +12,7 @@ button.addEventListener('click', function() {
 	listItem.appendChild(listText);
 	listText.textContent = chapter;
 	listItem.appendChild(listBtn);
-	listBtn.textContent = 'Delete';
+	listBtn.textContent = '❌';
 	list.appendChild(listItem);
 	
 	listBtn.onclick = function(e) {
