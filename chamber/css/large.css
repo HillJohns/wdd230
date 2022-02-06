@@ -10,7 +10,6 @@
     max-width: 1000px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-auto-rows: min-content;
     grid-gap: 5px;
   }
   .hero {
@@ -21,12 +20,15 @@
   }
   .spotlights {
     grid-column: 4 / 5;
-    grid-row: 1;
+    grid-row: 1 / 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
   }
+
   .weather {
     grid-column: 1 / 2;
     grid-row: 1;
-    max-height: 100px;
   }
   .events {
     grid-column: 1 / 2;

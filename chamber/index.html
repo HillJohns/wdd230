@@ -16,6 +16,9 @@
     <title>Nephi Chamber of Commerce</title>
   </head>
   <body>
+    <div class="banner">
+      🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.
+    </div>
     <header>
       <div class="headerMain">
         <img class="logo" src="images/nebologow.png" alt="nebo mountain icon" />
@@ -50,7 +53,7 @@
         <h3>In the News</h3>
         <p>
           Nephi City has been voted as one of the most up and coming places to
-          live! Read more...
+          live! <a href="#">Read more...</a>
         </p>
       </section>
       <section class="events">
@@ -58,14 +61,27 @@
       </section>
       <section class="weather">
         <h3>Weather</h3>
+        <a
+          class="weatherwidget-io"
+          href="https://forecast7.com/en/39d71n111d84/nephi/"
+          data-label_1="NEPHI"
+          data-label_2="WEATHER"
+          data-mode="Current"
+          data-theme="weather_one"
+          >NEPHI WEATHER</a
+        >
       </section>
       <section class="spotlights">
         <h3>Company Spotlights</h3>
         <div id="spotlightFirst">
-          <img id="spotlightPhotoFirst" src="3" />
+          <h4>Fausett Electric, LLC</h4>
+          <img id="spotlightPhotoFirst" src="#" />
+          <p>"Lightning fast service!"</p>
         </div>
         <div id="spotlightSecond">
-          <img id="spotlightPhotoSecond" src="3" />
+          <h4>Johnson Store - Computer Repair</h4>
+          <img id="spotlightPhotoSecond" src="#" />
+          <p>"Did you turn it off and back on again?"</p>
         </div>
       </section>
       <section class="join">
@@ -92,5 +108,17 @@
       </div>
     </footer>
     <script src="js/script.js"></script>
+    <script>
+      !(function (d, s, id) {
+        var js,
+          fjs = d.getElementsByTagName(s)[0];
+        if (!d.getElementById(id)) {
+          js = d.createElement(s);
+          js.id = id;
+          js.src = "https://weatherwidget.io/js/widget.min.js";
+          fjs.parentNode.insertBefore(js, fjs);
+        }
+      })(document, "script", "weatherwidget-io-js");
+    </script>
   </body>
 </html>
