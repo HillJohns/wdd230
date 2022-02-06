@@ -86,12 +86,13 @@ main section {
   margin: 0.3rem auto;
 }
 
-.heroimg {
+#heroImg {
   width: 100%;
   height: 300px;
+  background-image: url("../images/utahmts.jpg");
 }
 #joinBtn {
-  position: fixed;
+  position: absolute;
 }
 .news {
   width: 100%;
