@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,400;1,800&display=swap");
 /* Header */
 .headerMain {
   width: 100%;
@@ -8,6 +9,7 @@
   align-items: center;
   padding: 0 auto;
   margin: 0 auto;
+  font-family: "Playfair Display", serif;
 }
 
 .logo {
@@ -70,14 +72,67 @@ nav ul.open {
 
 /* Body/Main Page Content */
 main {
-  max-width: 1200px;
+  font-family: "Playfair Display", serif;
+  color: white;
+  max-width: 600px;
   align-items: center;
-  padding: 5px;
+  padding: 10px;
   margin: 10px auto;
+  display: flex;
+  flex-direction: row;
 }
-
+.hero {
+  margin: 0 auto;
+}
+.heroimg {
+  width: 100%;
+  height: 300px;
+}
+#joinBtn {
+  position: fixed;
+}
+.news {
+  width: 100%;
+  margin: 0 auto;
+  height: 250px;
+  background-color: #0f5057;
+}
+.events {
+  width: 100%;
+  margin: 0 auto;
+  height: 250px;
+  background-color: #0f5057;
+}
+.weather {
+  width: 100%;
+  margin: 0 auto;
+  height: 250px;
+  background-color: #0f5057;
+}
+.spotlights {
+  width: 100%;
+  margin: 0 auto;
+  height: 520px;
+  background-color: #292929;
+  color: white;
+}
+#spotlightFirst {
+  margin: 0 auto;
+  width: 95%;
+  height: 220px;
+  border: 0.5px solid #000;
+  box-shadow: 0 0 10px #333;
+}
+#spotlightSecond {
+  margin: 0 auto;
+  width: 95%;
+  height: 220px;
+  border: 0.5px solid #000;
+  box-shadow: 0 0 10px #333;
+}
 /* Footer */
 .footerMain {
+  font-family: "Playfair Display", serif;
   width: 100%;
   background-color: lightgray;
   max-width: 1200px;
