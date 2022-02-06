@@ -15,6 +15,9 @@
   .hero {
     grid-column: 2 / 4;
   }
+  #heroImg {
+    grid-column: 2 / 4;
+  }
   .news {
     grid-column: 2 / 4;
   }

@@ -85,14 +85,24 @@ main {
 main section {
   margin: 0.3rem auto;
 }
-
 #heroImg {
-  /* min-width: 500px;
-  min-height: 300px; */
+  max-width: 100%;
+  background-size: cover;
   background-image: url("../images/utahmts.jpg");
+  position: relative;
+}
+#heroImage {
+  max-width: 100%;
+  opacity: 0;
 }
 #joinBtn {
   position: absolute;
+  top: 50%;
+  right: 35%;
+  box-shadow: 3px 3px rgba(59, 59, 59, 0.5);
+  padding: 10px 20px;
+  font-size: larger;
+  border-radius: 10px;
 }
 .news {
   width: 100%;
@@ -138,6 +148,8 @@ main section {
   background-color: #0f5057;
 }
 #bodyBtn {
+  box-shadow: 3px 3px rgba(59, 59, 59, 0.5);
+  border-radius: 10px;
   padding: 5px;
   margin: 10px;
 }
