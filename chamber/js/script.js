@@ -14,4 +14,12 @@ x.onclick = toggleMenu;
 const lastmod = document.querySelector('#lastmod');
 lastmod.textContent = document.lastModified;
 
+function displayBanner() {
+  const weekday = now.getDay();
+  const banner = document.querySelector('.banner');
+  if (weekday == 0 || weekday == 2) {
+    banner.hidden = false;
+  }
 
+}
+displayBanner();

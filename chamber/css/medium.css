@@ -1,4 +1,7 @@
 @media only screen and (min-width: 40rem) and (max-width: 64rem) {
+  .banner {
+    font-size: 1.2rem;
+  }
   nav button {
     display: none;
   }
