@@ -23,9 +23,22 @@
   }
   main {
     max-width: 800px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 5px;
   }
+  .hero,
+  .news,
+  .spotlights,
+  .join {
+    grid-column: 1 / 4;
+  }
+  .events {
+    grid-column: 1 / 3;
+  }
+  .join {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
