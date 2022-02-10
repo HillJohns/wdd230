@@ -17,7 +17,7 @@ lastmod.textContent = document.lastModified;
 function displayBanner() {
   const weekday = now.getDay();
   const banner = document.querySelector('.banner');
-  if (weekday == 0 || weekday == 2) {
+  if (weekday == 2 || weekday == 2) {
     banner.hidden = false;
   }
 

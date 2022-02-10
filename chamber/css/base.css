@@ -99,6 +99,12 @@ main {
 main section {
   margin: 0.3rem auto;
 }
+main p {
+  background-color: white;
+  color: black;
+  width: 95%;
+  margin: 0 auto;
+}
 #heroImg {
   max-width: 100%;
   background-size: cover;
