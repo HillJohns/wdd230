@@ -28,10 +28,10 @@
         </div>
         <div class="social">
           <a href="https://www.facebook.com" target="blank"
-            ><img class="social" src="images/facebook.png"
+            ><img class="social" src="images/facebook.png" alt="Facebook Icon"
           /></a>
           <a href="https://www.twitter.com" target="blank"
-            ><img class="social" src="images/twitter.png"
+            ><img class="social" src="images/twitter.png" alt="Twitter Icon"
           /></a>
         </div>
         <nav>
@@ -44,32 +44,32 @@
             <li><a href="#">Contact</a></li>
           </ul>
         </nav>
-        <div id="date"><date></date></div>
+        <div id="date"></div>
         <div id="currentDate"></div>
       </section>
     </header>
+    <section class="hero">
+      <div id="heroImg">
+        <!-- <img id="heroImage" src="images/utahmts.jpg" alt="Utah Mountains" />
+        <button id="joinBtn">Join Now</button> -->
+        <picture>
+          <source
+            media="(max-width: 799px)"
+            srcset="images/wdd230-org400s.jpg"
+          />
+          <source
+            media="(min-width: 800px) and (max-width: 1099px)"
+            srcset="images/wdd230-org800m.jpg"
+          />
+          <source
+            media="(min-width: 1100px)"
+            srcset="images/wdd230-org1100L.jpg"
+          />
+          <img src="images/wdd230-org.jpg" alt="Meeting in progress" />
+        </picture>
+      </div>
+    </section>
     <main>
-      <section class="hero">
-        <div id="heroImg">
-          <!-- <img id="heroImage" src="images/utahmts.jpg" alt="Utah Mountains" />
-          <button id="joinBtn">Join Now</button> -->
-          <picture>
-            <source
-              media="(max-width: 799px)"
-              srcset="images/wdd230-org400s.jpg"
-            />
-            <source
-              media="(min-width: 800px) and (max-width: 1099px)"
-              srcset="images/wdd230-org800m.jpg"
-            />
-            <source
-              media="(min-width: 1100px)"
-              srcset="images/wdd230-org1100L.jpg"
-            />
-            <img src="images/wdd230-org.jpg" alt="meeting picture" />
-          </picture>
-        </div>
-      </section>
       <section class="news">
         <h3>In the News</h3>
         <p>
@@ -94,18 +94,18 @@
         <h3>Company Spotlights</h3>
         <div id="spotlightFirst">
           <h4>Fausett Electric, LLC</h4>
-          <img id="spotlightPhotoFirst" src="#" />
+          <img id="spotlightPhotoFirst" src="#" alt="electrical" />
           <p>"Lightning fast service!"</p>
         </div>
         <div id="spotlightSecond">
           <h4>Johnson Store - Computer Repair</h4>
-          <img id="spotlightPhotoSecond" src="#" />
+          <img id="spotlightPhotoSecond" src="#" alt="computer" />
           <p>"Did you turn it off and back on again?"</p>
         </div>
       </section>
       <section class="join">
         <h3>Become a Member</h3>
-        <button id="bodyBtn" href="#">Join Now</button>
+        <button id="bodyBtn">Join Now</button>
       </section>
     </main>
     <footer>

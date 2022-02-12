@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,400;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oxygen&family=Playfair+Display&display=swap");
+
 /* Header */
 .banner {
   text-align: center;
@@ -6,37 +7,33 @@
   background-color: #598381;
   color: white;
   padding: 10px 0 10px 0;
+  border-style: solid;
+  border-color: white;
 }
 #headingBox {
-  background-color: #0f5057;
+  background-color: #394141;
   color: white;
-  display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-  grid-template-rows: 1fr 0.5fr;
-  justify-items: center;
-  padding-bottom: 10px;
-}
-.headerMain {
-  width: 100%;
-  max-width: 1100px;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  align-items: center;
+  justify-items: center;
+  padding-bottom: 1rem;
+}
+.headerMain {
+  text-align: center;
   align-items: center;
   margin: 0 auto;
   font-family: "Playfair Display", serif;
   font-size: 1.2rem;
 }
-h2 {
-  margin-top: -0.75rem;
-}
+
 .logo {
   width: 100px;
-  padding: 1rem;
+  padding: 1rem 0.5rem;
 }
 .social {
   width: 50px;
-  padding: 1em 0.2em;
+  padding: 0.1rem;
   display: flex;
   justify-content: center;
 }
@@ -54,7 +51,7 @@ nav {
   max-width: 760px;
   display: flex;
   justify-content: center;
-  font-family: "Playfair Display", serif;
+  font-family: "Oxygen", sans-serif;
   font-size: 1.2em;
 }
 nav a {
@@ -107,14 +104,14 @@ main {
   flex-direction: column;
 }
 h3 {
+  font-family: "Oxygen", sans-serif;
   margin: 0.5rem;
   font-size: 1.5rem;
-  font-style: italic;
 }
 
 main section {
   margin: 0.3rem auto;
-  background-color: #0f5057;
+  background-color: #394141;
   padding-bottom: 1rem;
   width: 100%;
 }
@@ -127,13 +124,16 @@ main p {
 }
 .weather p {
   color: white;
-  background-color: #0f5057;
+  background-color: #394141;
   font-size: 1.3rem;
 }
+
 #heroImg {
   width: 400px;
+  margin: 0 auto;
   /* background-size: cover;
-  background-image: url("../images/utahmts.jpg");
+  background-image: url("../im
+  ages/utahmts.jpg");
   position: relative; */
 }
 
@@ -172,7 +172,7 @@ main p {
 .join {
   align-items: center;
   width: 100%;
-  background-color: #0f5057;
+  background-color: #394141;
 }
 #bodyBtn {
   box-shadow: 3px 3px rgba(59, 59, 59, 0.5);
@@ -183,14 +183,16 @@ main p {
 /* Footer */
 .footerMain {
   font-family: "Playfair Display", serif;
-  font-size: 1.2rem;
+  font-size: 1.2em;
   width: 100%;
-  background-color: #0f5057;
+  background-color: #394141;
   color: white;
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  text-align: center;
   align-items: center;
   margin: 0 auto;
+  padding-bottom: 0.75rem;
 }
 footer a {
   color: white;
