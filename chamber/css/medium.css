@@ -2,14 +2,7 @@
   .banner {
     font-size: 1.2rem;
   }
-  #headingBox {
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: 1fr 1fr;
-  }
-  nav {
-    grid-row-start: 2;
-  }
+
   nav button {
     display: none;
   }
@@ -33,7 +26,6 @@
   }
   main {
     max-width: 800px;
-    /* margin: 0 auto; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 5px;
@@ -45,7 +37,7 @@
     grid-column: 1 / 4;
   }
   #heroImg {
-    background-image: url("../images/utahmtstrim.jpeg");
+    /* background-image: url("../images/utahmtstrim.jpeg"); */
     height: 300px;
     width: 800px;
   }
