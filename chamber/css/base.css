@@ -50,6 +50,7 @@ nav {
   padding: 0.2rem;
   max-width: 760px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   font-family: "Oxygen", sans-serif;
   font-size: 1.2em;
@@ -92,7 +93,6 @@ nav ul.open {
 }
 #date {
   text-align: center;
-  padding-top: 1.8em;
   font-size: 1.2em;
 }
 /* Body/Main Page Content */
