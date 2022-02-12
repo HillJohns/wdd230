@@ -64,6 +64,9 @@ nav a {
 ul {
   list-style-type: none;
 }
+nav ul li a {
+  color: white;
+}
 nav ul li a:hover {
   background-color: white;
   color: black;
