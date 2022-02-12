@@ -54,19 +54,19 @@
           <!-- <img id="heroImage" src="images/utahmts.jpg" alt="Utah Mountains" />
           <button id="joinBtn">Join Now</button> -->
           <picture>
-            <!-- <img src="images/wdd230-org.jpg" alt="meeting picture" /> -->
             <source
-              media="(max-width: 400px)"
+              media="(max-width: 799px)"
               srcset="images/wdd230-org400s.jpg"
             />
             <source
-              media="(min-width: 800px)"
+              media="(min-width: 800px) and (max-width: 1099px)"
               srcset="images/wdd230-org800m.jpg"
             />
             <source
-              media="(min-width: 500px)"
-              srcset="images/wdd230-org500l.jpg"
+              media="(min-width: 1100px)"
+              srcset="images/wdd230-org1100L.jpg"
             />
+            <img src="images/wdd230-org.jpg" alt="meeting picture" />
           </picture>
         </div>
       </section>
@@ -86,15 +86,9 @@
       </section>
       <section class="weather">
         <h3>Weather</h3>
-        <a
-          class="weatherwidget-io"
-          href="https://forecast7.com/en/39d71n111d84/nephi/"
-          data-label_1="NEPHI"
-          data-label_2="WEATHER"
-          data-mode="Current"
-          data-theme="weather_one"
-          >NEPHI WEATHER</a
-        >
+        <p>Current Temperature: <span id="temp">40</span>&#8457;</p>
+        <p>Wind Speed: <span id="speed">6</span> mph</p>
+        <p>Wind Chill: <span id="windChill"></span>&#8457;</p>
       </section>
       <section class="spotlights">
         <h3>Company Spotlights</h3>
@@ -134,17 +128,6 @@
       </div>
     </footer>
     <script src="js/script.js"></script>
-    <script>
-      !(function (d, s, id) {
-        var js,
-          fjs = d.getElementsByTagName(s)[0];
-        if (!d.getElementById(id)) {
-          js = d.createElement(s);
-          js.id = id;
-          js.src = "https://weatherwidget.io/js/widget.min.js";
-          fjs.parentNode.insertBefore(js, fjs);
-        }
-      })(document, "script", "weatherwidget-io-js");
-    </script>
+    <script src="js/windchill.js"></script>
   </body>
 </html>
