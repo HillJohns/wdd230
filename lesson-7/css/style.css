@@ -1,8 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,900;1,600&display=swap");
+
+h1 {
+  font-size: 2.5rem;
+  background-color: white;
+  padding: 0.75em;
+}
 body {
+  font-family: Raleway, sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: papayawhip;
+  gap: 2rem;
+  background-color: #c7bcc3;
 }
 img[data-src] {
   filter: blur(0.4em);
@@ -11,7 +20,9 @@ img[data-src] {
 img {
   width: 300px;
   height: 400px;
-  padding: 1em;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 0.5em;
   filter: blur(0em);
   transition: filter 0.75s;
 }
