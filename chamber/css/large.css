@@ -45,16 +45,22 @@
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 5px;
   }
-
+  #heroImg {
+    grid-column: 2 / 4;
+    grid-row: 1;
+  }
   .hero {
     grid-column: 2 / 4;
     grid-row: 1 / 3;
   }
-  #heroImg {
-    grid-column: 2 / 4;
+  #heroImage {
+    height: 300px;
+    /* width: 100%; */
   }
+
   .news {
     grid-column: 2 / 4;
+    grid-row: 2 / 4;
   }
   .spotlights {
     grid-column: 4 / 5;

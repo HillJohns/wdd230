@@ -45,16 +45,20 @@
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 5px;
   }
-  .hero,
+
   .news,
   .spotlights,
   .join {
     grid-column: 1 / 4;
   }
-  #heroImg {
+  .hero {
     background-image: url("../images/utahmtstrim.jpeg");
-    /* height: 300px;
-    width: 800px; */
+    height: 300px;
+    width: 800px;
+  }
+  #heroImage {
+    height: 300px;
+    width: 800px;
   }
   #joinBtn {
     top: 30%;
