@@ -132,12 +132,11 @@ main p {
 }
 
 #heroImg {
-  width: 400px;
+  /* width: 400px; */
   margin: 0 auto;
-  /* background-size: cover;
-  background-image: url("../im
-  ages/utahmts.jpg");
-  position: relative; */
+  background-size: cover;
+  background-image: url("../images/utahmts.jpg");
+  position: relative;
 }
 
 #joinBtn {
