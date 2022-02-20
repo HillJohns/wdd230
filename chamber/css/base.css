@@ -135,7 +135,8 @@ main p {
 .hero {
   width: 100%;
   height: 300px;
-  margin: 0 auto;
+  margin-top: 5px;
+  background-color: white;
   /* background-size: cover;
   background-image: url("../images/utahmts.jpg");
   position: relative; */
@@ -143,7 +144,6 @@ main p {
 #heroImage {
   height: 300px;
   width: 100%;
-  background-color: none;
 }
 
 #joinBtn {
@@ -154,6 +154,9 @@ main p {
   padding: 10px 20px;
   font-size: larger;
   border-radius: 10px;
+}
+.news {
+  margin: 0 auto;
 }
 .spotlights {
   align-items: center;
@@ -195,33 +198,50 @@ main p {
   max-width: 1100px;
   flex-direction: row;
 }
+.demographics p {
+  padding: 1em;
+  width: 90%;
+  font-family: "Playfair Display", sans-serif;
+  font-size: 1.1em;
+  line-height: 1.5em;
+  text-align: left;
+}
 .discoverGrid {
   /* margin: 0 auto; */
+  background-color: white;
   display: grid;
   max-width: 1100px;
   grid-gap: 0.75em;
+  padding-top: 10px;
 }
 .card {
   background-color: white;
   margin: 0 auto;
-  filter: blur(0em);
-  transition: filter 0.75s;
-  padding: 0.2px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
 }
 img[data-src] {
   filter: blur(0.4em);
 }
 .card picture img {
-  width: 300px;
+  width: 380px;
   height: 250px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  transition: 0.3s;
+  filter: blur(0em);
+  transition: filter 0.75s;
 }
 .card picture img:hover {
   opacity: 0.5;
 }
 h4 {
+  font-family: Oxygen, sans-serif;
+  font-size: 1.2em;
   color: #394141;
+}
+#pageVisits {
+  font-family: Oxygen, sans-serif;
+  color: black;
+  font-size: 1rem;
+  padding: 1em;
 }
 /* Footer */
 .footerMain {
