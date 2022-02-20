@@ -87,12 +87,16 @@
   /*Discover*/
   .demographics {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+  }
+  .demographics p {
+    padding: 1em;
   }
   .discoverGrid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     max-width: 1100px;
+    grid-gap: 2em;
   }
 
   /*footer*/
