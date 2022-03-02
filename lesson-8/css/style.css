@@ -1,0 +1,53 @@
+@import url("http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin");
+
+table {
+  font-family: "Ubuntu", sans-serif;
+  margin: 10px auto;
+  border: thin solid #cecaca;
+  box-shadow: 10px 10px 10px #628ca6;
+  border-collapse: collapse;
+}
+
+thead th {
+  color: white;
+  background-color: #628ca6;
+}
+
+.topandbottom {
+  background-color: #7fb9c2;
+  color: black;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #e7f0ed;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #e7ffed;
+}
+
+#tableheader {
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+#tablefooter {
+  font-size: 10px;
+  font-weight: 400;
+}
+
+th,
+td {
+  border: thin solid #cecaca;
+  padding: 5px 10px;
+  text-align: center;
+}
+
+.holiday {
+  font-style: italic;
+}
+
+#goalmet {
+  background-color: #628ca6;
+  color: white;
+}
